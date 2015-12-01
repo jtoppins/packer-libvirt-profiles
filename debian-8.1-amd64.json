@@ -28,7 +28,7 @@
       "output_directory": "packer-{{user `template`}}-qemu",
       "accelerator": "kvm",
       "disk_interface": "virtio",
-      "disk_size": 40960,
+      "disk_size": 10240,
       "format": "qcow2",
       "net_device": "virtio-net",
       "headless": "{{ user `headless` }}",
